@@ -1,0 +1,86 @@
+body{
+    background: blanchedalmond;
+}
+header{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+
+}
+header a{
+    margin-left: 1rem;
+}
+a{
+    margin-left: 1rem;
+}
+.images-box{
+    display: flex;
+}
+.images-box img{
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    text-align: right;
+    margin-left: 1rem;
+}
+main{
+    text-align: center;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.head .clr1{
+    color: rgb(250, 71, 71);
+}
+.head .clr2{
+    color: rgb(108, 98, 253);
+    
+}
+.head .clr3{
+    color: rgb(239, 165, 46);
+}
+.head .clr4{
+    color:  rgb(108, 98, 253);
+}
+.head .clr5{
+    color: rgb(56, 160, 36);
+}
+.head .clr6{
+    color: rgb(250, 71, 71);
+}
+
+main .search-bar input{
+    padding: 0.61rem;
+    border-radius: 1rem;
+    width: 500px;
+    font-size: 1rem;
+    border: 2px solid black;
+    outline: none;
+}
+button{
+    background: lightgray;
+    border: none;
+    padding: 0.30rem 1rem;
+}
+
+footer .footer_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .link{
+    display: flex;
+}
+footer .link2{
+    display: flex;
+}
